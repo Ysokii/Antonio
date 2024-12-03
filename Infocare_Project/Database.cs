@@ -9,6 +9,7 @@ using MySql.Data.MySqlClient;
 using Microsoft.VisualBasic.Logging;
 using System.Drawing;
 using Microsoft.VisualBasic.ApplicationServices;
+using Infocare_Project.NewFolder;
 
 namespace Infocare_Project
 {
@@ -65,28 +66,26 @@ namespace Infocare_Project
 
         public void PatientReg2(Patient patient, string username, double height, double weight, double bmi, string bloodType, string preCon, string treatment, string prevSurg, string allergy, string medication)
         {
-            // SQL query to insert or update the patient's record
-            string query = @"
-        INSERT INTO tb_patientinfo 
-        (P_Height, P_Weight, P_BMI, P_Blood_Type, P_Precondition, P_Treatment, P_PrevSurgery, P_Username, P_Alergy, P_Medication)
-        VALUES 
-        (@Height, @Weight, @BMI, @BloodType, @PreCon, @Treatment, @PrevSurg, @Username, @Allergy, @Medication)
-        ON DUPLICATE KEY UPDATE 
-        P_Height = IFNULL(@Height, P_Height),
-        P_Weight = IFNULL(@Weight, P_Weight),
-        P_BMI = IFNULL(@BMI, P_BMI),
-        P_Blood_Type = IFNULL(@BloodType, P_Blood_Type),
-        P_Precondition = IFNULL(@PreCon, P_Precondition),
-        P_Treatment = IFNULL(@Treatment, P_Treatment),
-        P_PrevSurgery = IFNULL(@PrevSurg, P_PrevSurgery),
-        P_Alergy = IFNULL(@Allergy, P_Alergy),
-        P_Medication = IFNULL(@Medication, P_Medication);";
+        string query =
+                        @"INSERT INTO tb_patientinfo 
+                        (P_Height, P_Weight, P_BMI, P_Blood_Type, P_Precondition, P_Treatment, P_PrevSurgery, P_Username, P_Alergy, P_Medication)
+                        VALUES 
+                        (@Height, @Weight, @BMI, @BloodType, @PreCon, @Treatment, @PrevSurg, @Username, @Allergy, @Medication)
+                        ON DUPLICATE KEY UPDATE 
+                        P_Height = IFNULL(@Height, P_Height),
+                        P_Weight = IFNULL(@Weight, P_Weight),
+                        P_BMI = IFNULL(@BMI, P_BMI),
+                        P_Blood_Type = IFNULL(@BloodType, P_Blood_Type),
+                        P_Precondition = IFNULL(@PreCon, P_Precondition),
+                        P_Treatment = IFNULL(@Treatment, P_Treatment),
+                        P_PrevSurgery = IFNULL(@PrevSurg, P_PrevSurgery),
+                        P_Alergy = IFNULL(@Allergy, P_Alergy),
+                        P_Medication = IFNULL(@Medication, P_Medication);";
 
             using (var connection = GetConnection())
             {
                 MySqlCommand cmd = new MySqlCommand(query, connection);
 
-                // Add parameters to prevent SQL injection
                 cmd.Parameters.AddWithValue("@Height", height > 0 ? height : (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@Weight", weight > 0 ? weight : (object)DBNull.Value);
                 cmd.Parameters.AddWithValue("@BMI", bmi > 0 ? bmi : (object)DBNull.Value);
@@ -155,14 +154,76 @@ namespace Infocare_Project
             }
         }
 
+        public User GetUserByUsername(string username)
+        {
+            using (var connection = GetConnection())
+            {
+                string query = "SELECT * FROM tb_patientinfo WHERE p_Username = @Username";
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Username", username);
 
-        public bool PatientLogin(string username, string password)
+                try
+                {
+                    connection.Open();
+                    using (var reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            return new User
+                            {
+                                FirstName = reader["P_FirstName"].ToString(),
+                                LastName = reader["P_LastName"].ToString(),
+                                Username = reader["P_Username"].ToString(),
+                            };
+                        }
+                        else
+                        {
+                            return null;
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error fetching user data: " + ex.Message);
+                }
+            }
+        }
+
+
+        public void AddStaff(Staff staff)
         {
             using (var connection = GetConnection())
             {
                 try
                 {
-                    string query = "SELECT COUNT(*) FROM tb_patientinfo WHERE p_Username = @Username AND P_Password = @Password";
+                    string query = @"INSERT INTO tb_patientinfo (s_FirstName, s_LastName, s_MiddleName, s_Username, s_Password) " +
+                                   "VALUES (@FirstName, @LastName, @MiddleName, @Username, @Password)";
+
+                    MySqlCommand command = new MySqlCommand(query, connection);
+
+                    command.Parameters.AddWithValue("@FirstName", staff.FirstName);
+                    command.Parameters.AddWithValue("@LastName", staff.LastName);
+                    command.Parameters.AddWithValue("@MiddleName", staff.MiddleName);
+                    command.Parameters.AddWithValue("@Username", staff.Username);
+                    command.Parameters.AddWithValue("@Password", staff.Password);
+
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error inserting staff data: " + ex.Message);
+                }
+            }
+        }
+
+        public bool StaffLogin(string username, string password)
+        {
+            using (var connection = GetConnection())
+            {
+                try
+                {
+                    string query = "SELECT COUNT(*) FROM tb_stafftinfo WHERE s_Username = @Username AND s_Password = @Password";
 
                     MySqlCommand command = new MySqlCommand(query, connection);
                     command.Parameters.AddWithValue("@Username", username);
@@ -200,7 +261,7 @@ namespace Infocare_Project
                             string firstName = reader["P_Firstname"].ToString();
                             string lastName = reader["P_Lastname"].ToString();
 
-                            return $"{lastName}, {firstName}"; // Return the formatted name
+                            return $"{lastName}, {firstName}";
                         }
                         else
                         {
@@ -270,35 +331,234 @@ namespace Infocare_Project
         }
 
         public void AddDoctor(Doctor doctor)
+{
+    using (var connection = GetConnection())
+    {
+        try
         {
+            string query = @"INSERT INTO tb_doctorinfo 
+                             (firstname, middlename, lastname, username, password, consultationfee, specialization, start_time, end_time, day_availability) 
+                             VALUES (@FirstName, @MiddleName, @LastName, @Username, @Password, @ConsultationFee, @Specialization, @StartTime, @EndTime, @DayAvailability)";
+
+            MySqlCommand command = new MySqlCommand(query, connection);
+
+            command.Parameters.AddWithValue("@FirstName", doctor.FirstName);
+            command.Parameters.AddWithValue("@MiddleName", doctor.MiddleName);
+            command.Parameters.AddWithValue("@LastName", doctor.LastName);
+            command.Parameters.AddWithValue("@Username", doctor.Username);
+            command.Parameters.AddWithValue("@Password", doctor.Password);
+            command.Parameters.AddWithValue("@ConsultationFee", doctor.ConsultationFee);
+            command.Parameters.AddWithValue("@Specialization", doctor.Specialty);
+            command.Parameters.AddWithValue("@StartTime", doctor.StartTime);
+            command.Parameters.AddWithValue("@EndTime", doctor.EndTime);
+            command.Parameters.AddWithValue("@DayAvailability", doctor.DayAvailability);
+
+            connection.Open();
+            command.ExecuteNonQuery();
+        }
+        catch (Exception ex)
+        {
+            throw new Exception("Error inserting doctor data: " + ex.Message);
+        }
+    }
+}
+
+
+
+        public void NullPatientReg2Data(string username)
+        {
+            string query = @"
+        UPDATE tb_patientinfo
+        SET 
+            P_Height = NULL,
+            P_Weight = NULL,
+            P_BMI = NULL,
+            P_Blood_Type = NULL,
+            P_Precondition = NULL,
+            P_Treatment = NULL,
+            P_PrevSurgery = NULL,
+            P_Alergy = NULL,
+            P_Medication = NULL
+        WHERE P_Username = @Username";
+
             using (var connection = GetConnection())
             {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@Username", username);
+
                 try
                 {
-                    string query = @"INSERT INTO tb_doctorinfo 
-                             (firstname, middlename, lastname, username, password, consultationfee, specialization, time_availability, day_availability) 
-                             VALUES (@FirstName, @MiddleName, @LastName, @Username, @Password, @ConsultationFee, @Specialization, @TimeAvailability, @DayAvailability)";
-
-                    MySqlCommand command = new MySqlCommand(query, connection);
-
-                    command.Parameters.AddWithValue("@FirstName", doctor.FirstName);
-                    command.Parameters.AddWithValue("@MiddleName", doctor.MiddleName);
-                    command.Parameters.AddWithValue("@LastName", doctor.LastName);
-                    command.Parameters.AddWithValue("@Username", doctor.Username);
-                    command.Parameters.AddWithValue("@Password", doctor.Password);
-                    command.Parameters.AddWithValue("@ConsultationFee", doctor.ConsultationFee);
-                    command.Parameters.AddWithValue("@Specialization", doctor.Specialty);
-                    command.Parameters.AddWithValue("@TimeAvailability", doctor.TimeAvailability);
-                    command.Parameters.AddWithValue("@DayAvailability", doctor.DayAvailability);
-
                     connection.Open();
-                    command.ExecuteNonQuery();
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    if (rowsAffected == 0)
+                    {
+                        throw new Exception("No records were found to update.");
+                    }
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception("Error inserting doctor data: " + ex.Message);
+                    throw new Exception("Error deleting patient data: " + ex.Message);
                 }
             }
         }
+
+        public void DeletePatientReg1Data(string username)
+        {
+            string query = @"
+                Delete from tb_patientinfo
+                WHERE P_Username = @Username";
+
+            using (var connection = GetConnection())
+            {
+                MySqlCommand cmd = new MySqlCommand(query, connection);
+                cmd.Parameters.AddWithValue("@Username", username);
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    if (rowsAffected == 0)
+                    {
+                        throw new Exception("No records were found to update.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error deleting patient data: " + ex.Message);
+                }
+            }
+        }
+
+        public (string firstName, string lastName) GetPatientNameDetails(string username)
+        {
+            using (var connection = GetConnection())
+            {
+                string query = "SELECT P_Firstname, P_Lastname FROM tb_patientinfo WHERE P_Username = @Username";
+
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Username", username);
+
+                try
+                {
+                    connection.Open();
+
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            string firstName = reader["P_Firstname"].ToString();
+                            string lastName = reader["P_Lastname"].ToString();
+
+                            return (firstName, lastName);
+                        }
+                        else
+                        {
+                            throw new Exception("No patient found with the given username.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error fetching patient name details: " + ex.Message);
+                }
+            }
+        }
+        public List<string> GetDoctorNames(string specialization)
+        {
+            List<string> doctorNames = new List<string>();
+
+            string query = @"SELECT CONCAT('Dr. ', Lastname, ', ', Firstname, ' ', LEFT(middlename, 1)) AS doctor_name
+                     FROM tb_doctorinfo
+                     WHERE specialization = @Specialization";
+
+            using (var connection = GetConnection())
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Specialization", specialization);
+
+                try
+                {
+                    connection.Open();
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            doctorNames.Add(reader["doctor_name"].ToString());
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error getting doctor data: " + ex.Message);
+                }
+            }
+            return doctorNames;
+        }
+
+        public List<string> GetDoctorAvailableTimes(string doctorName)
+        {
+            List<string> timeSlots = new List<string>();
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                    string query = @"SELECT Start_Time, End_Time FROM tb_doctorinfo WHERE CONCAT('Dr. ', Lastname, ', ', Firstname, ' ', LEFT(middlename, 1)) = @doctorName";
+
+                using (MySqlCommand command = new MySqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@doctorName", doctorName);
+
+                    using (MySqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            string startTime = reader["Start_Time"].ToString();
+                            string endTime = reader["End_Time"].ToString();
+
+                            if (!string.IsNullOrEmpty(startTime) && !string.IsNullOrEmpty(endTime))
+                            {
+                                TimeSpan start = TimeSpan.Parse(startTime);
+                                TimeSpan end = TimeSpan.Parse(endTime);
+
+                                for (TimeSpan currentTime = start; currentTime < end; currentTime = currentTime.Add(TimeSpan.FromHours(1)))
+                                {
+                                    timeSlots.Add(currentTime.ToString(@"hh\:mm"));
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            return timeSlots;
+        }
+
+        public string GetDoctorAvailability(string doctorName)
+        {
+            string query = @"SELECT day_availability 
+                     FROM tb_doctorinfo 
+                     WHERE CONCAT('Dr. ', Lastname, ', ', Firstname, ' ', LEFT(middlename, 1)) = @DoctorName";
+
+            using (var connection = GetConnection())
+            {
+                MySqlCommand command = new MySqlCommand(query, connection);
+                command.Parameters.AddWithValue("@DoctorName", doctorName);
+
+                try
+                {
+                    connection.Open();
+                    object result = command.ExecuteScalar();
+                    return result != null ? result.ToString() : string.Empty;
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error fetching doctor availability: " + ex.Message);
+                }
+            }
+        }
+
     }
 }

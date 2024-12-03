@@ -147,18 +147,40 @@ namespace Infocare_Project
     {
         public string Specialty { get; set; }
         public double ConsultationFee { get; set; }
-        public TimeSpan TimeAvailability { get; set; }
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
         public string DayAvailability { get; set; }
 
         public Doctor() { }
 
-        public Doctor(string firstName, string lastName, string contactNumber, string sex, string specialty, double consultationFee, string username, string password, TimeSpan timeAvailability, string dayAvailability)
+        public Doctor(string firstName, string lastName, string contactNumber, string sex, string specialty, double consultationFee, string username, string password, TimeSpan start_time, TimeSpan end_time, string dayAvailability)
             : base(firstName, lastName, string.Empty, contactNumber, sex, string.Empty, username, password, string.Empty, DateTime.MinValue)
         {
             Specialty = specialty;
             ConsultationFee = consultationFee;
-            TimeAvailability = timeAvailability;
+            StartTime = start_time;
+            EndTime = end_time;
             DayAvailability = dayAvailability;
+        }
+    }
+
+
+    //Staff Class
+    // Staff Class
+    public class Staff : User
+    {
+        // Constructor
+        public Staff() { }
+
+        // Parameterized Constructor
+        public Staff(string firstName, string middleName, string lastName, string username, string password)
+            : base(firstName, lastName, middleName, string.Empty, string.Empty, string.Empty, username, password, string.Empty, DateTime.MinValue)
+        {
+            FirstName = firstName;
+            MiddleName = middleName;
+            LastName = lastName;
+            Username = username;
+            Password = password;
         }
     }
 

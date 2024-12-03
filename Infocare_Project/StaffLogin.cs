@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Infocare_Project_1;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Infocare_Project
 {
-    public partial class PatientLoginForm : Form
+    public partial class StaffLogin : Form
     {
-        public PatientLoginForm()
+        public StaffLogin()
         {
             InitializeComponent();
         }
@@ -45,10 +46,7 @@ namespace Infocare_Project
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
 
-                LoginEmpty nullLogin = new LoginEmpty(username, password);
-
-                FieldsEmptyLogin emptyLogin = new FieldsEmptyLogin();
-                emptyLogin.EmptyLogin(nullLogin);
+                MessageBox.Show("Credentials are empty", "Empty FIelds", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 this.Hide();
                 return;
@@ -58,13 +56,17 @@ namespace Infocare_Project
             Database db = new Database();
 
 
-            bool validPatient = db.PatientLogin(username, password);
+            bool validPatient = db.StaffLogin(username, password);
 
 
             if (validPatient)
             {
+                (string firstName, string lastName) = db.GetPatientNameDetails(username);
 
                 MessageBox.Show("Login successful!");
+
+                var patientDashboard = new StaffDashboard(username, firstName, lastName);
+                patientDashboard.Show();
                 this.Hide();
             }
 
@@ -94,6 +96,13 @@ namespace Infocare_Project
         private void MinimizeButton_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void staff_HomeButton_Click(object sender, EventArgs e)
+        {
+            HomeForm homeForm = new HomeForm();
+            homeForm.Show();
+            this.Hide();
         }
     }
 }
