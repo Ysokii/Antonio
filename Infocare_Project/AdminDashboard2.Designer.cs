@@ -475,7 +475,7 @@
             ad_staffpanel.FillColor2 = Color.FromArgb(13, 41, 80);
             ad_staffpanel.FillColor3 = Color.FromArgb(13, 41, 80);
             ad_staffpanel.FillColor4 = Color.FromArgb(110, 177, 247);
-            ad_staffpanel.Location = new Point(220, 108);
+            ad_staffpanel.Location = new Point(218, 106);
             ad_staffpanel.Name = "ad_staffpanel";
             ad_staffpanel.ShadowDecoration.CustomizableEdges = customizableEdges19;
             ad_staffpanel.Size = new Size(662, 448);
@@ -527,7 +527,7 @@
             StaffDataGridViewList2.RowHeadersVisible = false;
             StaffDataGridViewList2.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             StaffDataGridViewList2.RowTemplate.Height = 35;
-            StaffDataGridViewList2.Size = new Size(649, 391);
+            StaffDataGridViewList2.Size = new Size(645, 396);
             StaffDataGridViewList2.TabIndex = 215;
             StaffDataGridViewList2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightBlue;
             StaffDataGridViewList2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(160, 160, 160);
@@ -563,7 +563,7 @@
             guna2HtmlLabel3.BackColor = Color.Transparent;
             guna2HtmlLabel3.Font = new Font("Tahoma", 15.25F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel3.ForeColor = SystemColors.Control;
-            guna2HtmlLabel3.Location = new Point(20, 8);
+            guna2HtmlLabel3.Location = new Point(13, 9);
             guna2HtmlLabel3.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             guna2HtmlLabel3.Size = new Size(93, 26);
@@ -575,7 +575,7 @@
             AddStaffLabel.BackColor = Color.Transparent;
             AddStaffLabel.Font = new Font("Arial", 12.25F, FontStyle.Bold, GraphicsUnit.Point);
             AddStaffLabel.ForeColor = SystemColors.Control;
-            AddStaffLabel.Location = new Point(559, 11);
+            AddStaffLabel.Location = new Point(559, 12);
             AddStaffLabel.Margin = new Padding(3, 2, 3, 2);
             AddStaffLabel.Name = "AddStaffLabel";
             AddStaffLabel.Size = new Size(73, 21);
@@ -587,12 +587,12 @@
             AddButton.BackColor = Color.FromArgb(51, 95, 146);
             AddButton.CheckedState.ImageSize = new Size(64, 64);
             AddButton.Cursor = Cursors.Hand;
-            AddButton.HoverState.ImageSize = new Size(64, 64);
+            AddButton.HoverState.ImageSize = new Size(40, 45);
             AddButton.Image = (Image)resources.GetObject("AddButton.Image");
             AddButton.ImageOffset = new Point(0, 0);
             AddButton.ImageRotate = 0F;
             AddButton.ImageSize = new Size(40, 45);
-            AddButton.Location = new Point(516, 0);
+            AddButton.Location = new Point(516, 1);
             AddButton.Name = "AddButton";
             AddButton.PressedState.ImageSize = new Size(64, 64);
             AddButton.ShadowDecoration.CustomizableEdges = customizableEdges17;
@@ -612,7 +612,7 @@
             ad_docpanel.FillColor2 = Color.FromArgb(13, 41, 80);
             ad_docpanel.FillColor3 = Color.FromArgb(13, 41, 80);
             ad_docpanel.FillColor4 = Color.FromArgb(110, 177, 247);
-            ad_docpanel.Location = new Point(220, 108);
+            ad_docpanel.Location = new Point(218, 106);
             ad_docpanel.Name = "ad_docpanel";
             ad_docpanel.ShadowDecoration.CustomizableEdges = customizableEdges24;
             ad_docpanel.Size = new Size(662, 448);
@@ -623,7 +623,7 @@
             guna2HtmlLabel4.BackColor = Color.Transparent;
             guna2HtmlLabel4.Font = new Font("Arial", 12.25F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel4.ForeColor = SystemColors.Control;
-            guna2HtmlLabel4.Location = new Point(554, 16);
+            guna2HtmlLabel4.Location = new Point(554, 13);
             guna2HtmlLabel4.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             guna2HtmlLabel4.Size = new Size(90, 21);
@@ -635,7 +635,7 @@
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Tahoma", 15.25F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel1.ForeColor = SystemColors.Control;
-            guna2HtmlLabel1.Location = new Point(13, 12);
+            guna2HtmlLabel1.Location = new Point(13, 9);
             guna2HtmlLabel1.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             guna2HtmlLabel1.Size = new Size(111, 26);
@@ -688,7 +688,7 @@
             dataGridViewCellStyle7.WrapMode = DataGridViewTriState.False;
             DoctorDataGridViewList2.DefaultCellStyle = dataGridViewCellStyle7;
             DoctorDataGridViewList2.GridColor = Color.FromArgb(179, 230, 251);
-            DoctorDataGridViewList2.Location = new Point(4, 3);
+            DoctorDataGridViewList2.Location = new Point(8, 6);
             DoctorDataGridViewList2.Name = "DoctorDataGridViewList2";
             DoctorDataGridViewList2.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -702,7 +702,7 @@
             DoctorDataGridViewList2.RowHeadersVisible = false;
             DoctorDataGridViewList2.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             DoctorDataGridViewList2.RowTemplate.Height = 35;
-            DoctorDataGridViewList2.Size = new Size(649, 393);
+            DoctorDataGridViewList2.Size = new Size(645, 396);
             DoctorDataGridViewList2.TabIndex = 215;
             DoctorDataGridViewList2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightBlue;
             DoctorDataGridViewList2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(160, 160, 160);
@@ -736,12 +736,12 @@
             AddDoctor.BackColor = Color.FromArgb(51, 95, 146);
             AddDoctor.CheckedState.ImageSize = new Size(64, 64);
             AddDoctor.Cursor = Cursors.Hand;
-            AddDoctor.HoverState.ImageSize = new Size(64, 64);
+            AddDoctor.HoverState.ImageSize = new Size(40, 45);
             AddDoctor.Image = (Image)resources.GetObject("AddDoctor.Image");
             AddDoctor.ImageOffset = new Point(0, 0);
             AddDoctor.ImageRotate = 0F;
             AddDoctor.ImageSize = new Size(40, 45);
-            AddDoctor.Location = new Point(508, 4);
+            AddDoctor.Location = new Point(508, 3);
             AddDoctor.Name = "AddDoctor";
             AddDoctor.PressedState.ImageSize = new Size(64, 64);
             AddDoctor.ShadowDecoration.CustomizableEdges = customizableEdges22;
@@ -759,7 +759,7 @@
             ad_patientpanel.FillColor2 = Color.FromArgb(13, 41, 80);
             ad_patientpanel.FillColor3 = Color.FromArgb(13, 41, 80);
             ad_patientpanel.FillColor4 = Color.FromArgb(110, 177, 247);
-            ad_patientpanel.Location = new Point(220, 108);
+            ad_patientpanel.Location = new Point(217, 106);
             ad_patientpanel.Name = "ad_patientpanel";
             ad_patientpanel.ShadowDecoration.CustomizableEdges = customizableEdges28;
             ad_patientpanel.Size = new Size(662, 448);
@@ -770,7 +770,7 @@
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Tahoma", 15.25F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel6.ForeColor = SystemColors.Control;
-            guna2HtmlLabel6.Location = new Point(10, 15);
+            guna2HtmlLabel6.Location = new Point(13, 9);
             guna2HtmlLabel6.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             guna2HtmlLabel6.Size = new Size(116, 26);
@@ -823,7 +823,7 @@
             dataGridViewCellStyle11.WrapMode = DataGridViewTriState.False;
             PatientDataGridViewList2.DefaultCellStyle = dataGridViewCellStyle11;
             PatientDataGridViewList2.GridColor = Color.FromArgb(179, 230, 251);
-            PatientDataGridViewList2.Location = new Point(5, 3);
+            PatientDataGridViewList2.Location = new Point(8, 6);
             PatientDataGridViewList2.Name = "PatientDataGridViewList2";
             PatientDataGridViewList2.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -837,7 +837,7 @@
             PatientDataGridViewList2.RowHeadersVisible = false;
             PatientDataGridViewList2.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             PatientDataGridViewList2.RowTemplate.Height = 35;
-            PatientDataGridViewList2.Size = new Size(645, 391);
+            PatientDataGridViewList2.Size = new Size(645, 396);
             PatientDataGridViewList2.TabIndex = 176;
             PatientDataGridViewList2.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightBlue;
             PatientDataGridViewList2.ThemeStyle.AlternatingRowsStyle.BackColor = Color.FromArgb(160, 160, 160);
@@ -887,7 +887,7 @@
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Tahoma", 15.25F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel5.ForeColor = SystemColors.Control;
-            guna2HtmlLabel5.Location = new Point(13, 12);
+            guna2HtmlLabel5.Location = new Point(13, 9);
             guna2HtmlLabel5.Margin = new Padding(3, 2, 3, 2);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             guna2HtmlLabel5.Size = new Size(175, 26);
@@ -1325,7 +1325,7 @@
             SearchPanel4.FillColor2 = Color.FromArgb(13, 41, 80);
             SearchPanel4.FillColor3 = Color.FromArgb(13, 41, 80);
             SearchPanel4.FillColor4 = Color.FromArgb(110, 177, 247);
-            SearchPanel4.Location = new Point(440, 47);
+            SearchPanel4.Location = new Point(440, 46);
             SearchPanel4.Name = "SearchPanel4";
             SearchPanel4.ShadowDecoration.CustomizableEdges = customizableEdges45;
             SearchPanel4.Size = new Size(441, 44);
@@ -1614,11 +1614,11 @@
             Controls.Add(ad_guna2HtmlLabel4);
             Controls.Add(guna2PictureBox1);
             Controls.Add(guna2PictureBox2);
+            Controls.Add(SearchPanel3);
+            Controls.Add(ad_staffpanel);
             Controls.Add(ad_AppointmentPanel);
             Controls.Add(ad_patientpanel);
             Controls.Add(ad_docpanel);
-            Controls.Add(ad_staffpanel);
-            Controls.Add(SearchPanel3);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminDashboard2";
             StartPosition = FormStartPosition.CenterScreen;
