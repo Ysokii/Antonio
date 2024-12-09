@@ -82,7 +82,7 @@ namespace Infocare_Project
                 return;
             }
 
-           
+
 
             if (!LastNameTextbox.Text.All(char.IsLetter) && !string.IsNullOrEmpty(LastNameTextbox.Text))
             {
@@ -138,7 +138,7 @@ namespace Infocare_Project
                 ContactNumber = ContactNumberTextbox.Text.Trim(),
                 ConfirmPassword = ConfirmPasswordTextBox.Text.Trim(),
                 ConsultationFee = int.TryParse(ConsultationFeeTextBox.Text, out int consultationFee) ? consultationFee : 0,
-                Specialty = specializations, 
+                Specialty = specializations,
             };
 
             string selectedTimeSlot = TimeComboBox.SelectedItem.ToString();
@@ -188,7 +188,7 @@ namespace Infocare_Project
                 }
 
                 MessageBox.Show("Doctor added successfully!");
-                this.Hide();
+                this.Close();
 
             }
             catch (Exception ex)
@@ -314,7 +314,7 @@ namespace Infocare_Project
                 WordWrap = true,
                 Multiline = false,
                 TextAlign = HorizontalAlignment.Left,
-            }; 
+            };
 
             flowLayoutPanel1.Controls.Add(newSpecializationTextBox);
         }

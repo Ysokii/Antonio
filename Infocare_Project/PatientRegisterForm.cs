@@ -72,6 +72,13 @@ namespace Infocare_Project
                 return;
             }
 
+            if (!UsernameTxtbox.Text.EndsWith("@gmail.com"))
+            {
+                MessageBox.Show("Invalid email. The email must end with '@gmail.com'.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
 
             if (!InputValidator.ValidateAlphabetic(FirstnameTxtbox, "First name must contain only letters. ex. (Juan)") ||
                 !InputValidator.ValidateAlphabetic(LastNameTxtbox, "Last name must contain only letters. ex. (Dela Cruz)") ||

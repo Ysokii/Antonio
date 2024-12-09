@@ -81,46 +81,22 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pd_HomeButton = new Guna.UI2.WinForms.Guna2CircleButton();
@@ -158,31 +134,23 @@
             MinimizeButton = new Guna.UI2.WinForms.Guna2ImageButton();
             ExitButton = new Guna.UI2.WinForms.Guna2Button();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
-            SearchPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            ResetTransactionFilterButton = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            NameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            SearchTransactionButton = new Guna.UI2.WinForms.Guna2Button();
-            TransactionIdTextBox = new Guna.UI2.WinForms.Guna2TextBox();
-            SearchPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            SearchPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            ResetAppointmentButton = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            SearchAppointmentName = new Guna.UI2.WinForms.Guna2TextBox();
-            AppointmentSearchButton = new Guna.UI2.WinForms.Guna2Button();
-            SearchAppointmentID = new Guna.UI2.WinForms.Guna2TextBox();
-            SearchPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            ResetDoctorButton = new Guna.UI2.WinForms.Guna2Button();
-            guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            SearchDoctorName = new Guna.UI2.WinForms.Guna2TextBox();
-            SearchDoctorButton = new Guna.UI2.WinForms.Guna2Button();
-            SearchDoctorID = new Guna.UI2.WinForms.Guna2TextBox();
             mySqlCommand1 = new MySql.Data.MySqlClient.MySqlCommand();
+            timer1 = new System.Windows.Forms.Timer(components);
+            SearchForPatient = new Guna.UI2.WinForms.Guna2TextBox();
+            SearchForPatientPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            SearchForStaffPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            SearchForStaff = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            SearchForDoctorPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            SearchForDoctor = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            SearchForAppointmentPanel = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            SearchForAppointment = new Guna.UI2.WinForms.Guna2TextBox();
+            guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            timer2 = new System.Windows.Forms.Timer(components);
+            timer3 = new System.Windows.Forms.Timer(components);
+            timer4 = new System.Windows.Forms.Timer(components);
             guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)ad_guna2CirclePictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
@@ -198,10 +166,10 @@
             ad_AppointmentPanel.SuspendLayout();
             guna2CustomGradientPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)AppointmentDataGridViewList2).BeginInit();
-            SearchPanel1.SuspendLayout();
-            SearchPanel2.SuspendLayout();
-            SearchPanel4.SuspendLayout();
-            SearchPanel3.SuspendLayout();
+            SearchForPatientPanel.SuspendLayout();
+            SearchForStaffPanel.SuspendLayout();
+            SearchForDoctorPanel.SuspendLayout();
+            SearchForAppointmentPanel.SuspendLayout();
             SuspendLayout();
             // 
             // guna2CustomGradientPanel1
@@ -334,7 +302,7 @@
             ad_doctor.TabIndex = 137;
             ad_doctor.Text = "DOCTORS";
             ad_doctor.TextFormatNoPrefix = true;
-            ad_doctor.Click += ad_AppointmentList_Click;
+            ad_doctor.Click += ad_doctor_Click;
             // 
             // ad_guna2HtmlLabel1
             // 
@@ -399,7 +367,7 @@
             ad_Staff.TabIndex = 136;
             ad_Staff.Text = "STAFFS";
             ad_Staff.TextFormatNoPrefix = true;
-            ad_Staff.Click += ad_PatientList_Click;
+            ad_Staff.Click += ad_StaffList_Click;
             // 
             // ad_NameLabel
             // 
@@ -513,7 +481,7 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
             StaffDataGridViewList2.DefaultCellStyle = dataGridViewCellStyle3;
             StaffDataGridViewList2.GridColor = Color.FromArgb(179, 230, 251);
-            StaffDataGridViewList2.Location = new Point(7, 46);
+            StaffDataGridViewList2.Location = new Point(9, 46);
             StaffDataGridViewList2.Name = "StaffDataGridViewList2";
             StaffDataGridViewList2.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -575,7 +543,7 @@
             AddStaffLabel.BackColor = Color.Transparent;
             AddStaffLabel.Font = new Font("Arial", 12.25F, FontStyle.Bold, GraphicsUnit.Point);
             AddStaffLabel.ForeColor = SystemColors.Control;
-            AddStaffLabel.Location = new Point(559, 12);
+            AddStaffLabel.Location = new Point(554, 13);
             AddStaffLabel.Margin = new Padding(3, 2, 3, 2);
             AddStaffLabel.Name = "AddStaffLabel";
             AddStaffLabel.Size = new Size(73, 21);
@@ -592,7 +560,7 @@
             AddButton.ImageOffset = new Point(0, 0);
             AddButton.ImageRotate = 0F;
             AddButton.ImageSize = new Size(40, 45);
-            AddButton.Location = new Point(516, 1);
+            AddButton.Location = new Point(508, 3);
             AddButton.Name = "AddButton";
             AddButton.PressedState.ImageSize = new Size(64, 64);
             AddButton.ShadowDecoration.CustomizableEdges = customizableEdges17;
@@ -1031,566 +999,6 @@
             guna2BorderlessForm1.DragStartTransparencyValue = 1D;
             guna2BorderlessForm1.TransparentWhileDrag = true;
             // 
-            // SearchPanel1
-            // 
-            SearchPanel1.BorderColor = Color.Transparent;
-            SearchPanel1.BorderThickness = 2;
-            SearchPanel1.Controls.Add(ResetTransactionFilterButton);
-            SearchPanel1.Controls.Add(guna2HtmlLabel8);
-            SearchPanel1.Controls.Add(NameTextBox);
-            SearchPanel1.Controls.Add(SearchTransactionButton);
-            SearchPanel1.Controls.Add(TransactionIdTextBox);
-            SearchPanel1.CustomizableEdges = customizableEdges64;
-            SearchPanel1.FillColor = Color.FromArgb(13, 41, 80);
-            SearchPanel1.FillColor2 = Color.FromArgb(13, 41, 80);
-            SearchPanel1.FillColor3 = Color.FromArgb(13, 41, 80);
-            SearchPanel1.FillColor4 = Color.FromArgb(110, 177, 247);
-            SearchPanel1.Location = new Point(441, 44);
-            SearchPanel1.Name = "SearchPanel1";
-            SearchPanel1.ShadowDecoration.CustomizableEdges = customizableEdges65;
-            SearchPanel1.Size = new Size(441, 44);
-            SearchPanel1.TabIndex = 222;
-            SearchPanel1.Visible = false;
-            // 
-            // ResetTransactionFilterButton
-            // 
-            ResetTransactionFilterButton.BackColor = Color.Transparent;
-            ResetTransactionFilterButton.BorderColor = Color.FromArgb(93, 202, 209);
-            ResetTransactionFilterButton.BorderRadius = 15;
-            ResetTransactionFilterButton.CustomBorderColor = Color.Cyan;
-            ResetTransactionFilterButton.CustomizableEdges = customizableEdges56;
-            ResetTransactionFilterButton.DisabledState.BorderColor = Color.DarkGray;
-            ResetTransactionFilterButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            ResetTransactionFilterButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            ResetTransactionFilterButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            ResetTransactionFilterButton.FillColor = Color.White;
-            ResetTransactionFilterButton.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            ResetTransactionFilterButton.ForeColor = Color.Black;
-            ResetTransactionFilterButton.ImageAlign = HorizontalAlignment.Left;
-            ResetTransactionFilterButton.ImageOffset = new Point(2, 0);
-            ResetTransactionFilterButton.ImageSize = new Size(40, 40);
-            ResetTransactionFilterButton.Location = new Point(357, 5);
-            ResetTransactionFilterButton.Margin = new Padding(3, 2, 3, 2);
-            ResetTransactionFilterButton.Name = "ResetTransactionFilterButton";
-            ResetTransactionFilterButton.ShadowDecoration.CustomizableEdges = customizableEdges57;
-            ResetTransactionFilterButton.Size = new Size(74, 33);
-            ResetTransactionFilterButton.TabIndex = 219;
-            ResetTransactionFilterButton.Text = "Reset";
-            ResetTransactionFilterButton.TextFormatNoPrefix = true;
-            ResetTransactionFilterButton.Click += ResetTransactionFilterButton_Click;
-            // 
-            // guna2HtmlLabel8
-            // 
-            guna2HtmlLabel8.BackColor = Color.Transparent;
-            guna2HtmlLabel8.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel8.ForeColor = SystemColors.Control;
-            guna2HtmlLabel8.Location = new Point(189, 12);
-            guna2HtmlLabel8.Margin = new Padding(3, 2, 3, 2);
-            guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            guna2HtmlLabel8.Size = new Size(20, 18);
-            guna2HtmlLabel8.TabIndex = 220;
-            guna2HtmlLabel8.Text = "OR";
-            // 
-            // NameTextBox
-            // 
-            NameTextBox.BackColor = Color.Transparent;
-            NameTextBox.BorderColor = Color.FromArgb(93, 202, 209);
-            NameTextBox.BorderRadius = 8;
-            NameTextBox.BorderThickness = 0;
-            NameTextBox.CustomizableEdges = customizableEdges58;
-            NameTextBox.DefaultText = "";
-            NameTextBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            NameTextBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            NameTextBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            NameTextBox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            NameTextBox.FillColor = SystemColors.Window;
-            NameTextBox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            NameTextBox.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            NameTextBox.ForeColor = Color.FromArgb(47, 89, 114);
-            NameTextBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            NameTextBox.Location = new Point(10, 5);
-            NameTextBox.Name = "NameTextBox";
-            NameTextBox.PasswordChar = '\0';
-            NameTextBox.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            NameTextBox.PlaceholderText = "Name";
-            NameTextBox.SelectedText = "";
-            NameTextBox.ShadowDecoration.CustomizableEdges = customizableEdges59;
-            NameTextBox.Size = new Size(170, 33);
-            NameTextBox.TabIndex = 218;
-            // 
-            // SearchTransactionButton
-            // 
-            SearchTransactionButton.BackColor = Color.Transparent;
-            SearchTransactionButton.BorderColor = Color.FromArgb(93, 202, 209);
-            SearchTransactionButton.BorderRadius = 15;
-            SearchTransactionButton.CustomBorderColor = Color.Cyan;
-            SearchTransactionButton.CustomizableEdges = customizableEdges60;
-            SearchTransactionButton.DisabledState.BorderColor = Color.DarkGray;
-            SearchTransactionButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            SearchTransactionButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            SearchTransactionButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            SearchTransactionButton.FillColor = Color.White;
-            SearchTransactionButton.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            SearchTransactionButton.ForeColor = Color.Black;
-            SearchTransactionButton.ImageAlign = HorizontalAlignment.Left;
-            SearchTransactionButton.ImageOffset = new Point(2, 0);
-            SearchTransactionButton.ImageSize = new Size(40, 40);
-            SearchTransactionButton.Location = new Point(277, 5);
-            SearchTransactionButton.Margin = new Padding(3, 2, 3, 2);
-            SearchTransactionButton.Name = "SearchTransactionButton";
-            SearchTransactionButton.ShadowDecoration.CustomizableEdges = customizableEdges61;
-            SearchTransactionButton.Size = new Size(74, 33);
-            SearchTransactionButton.TabIndex = 218;
-            SearchTransactionButton.Text = "Search";
-            SearchTransactionButton.TextFormatNoPrefix = true;
-            SearchTransactionButton.Click += SearchTransactionButton_Click;
-            // 
-            // TransactionIdTextBox
-            // 
-            TransactionIdTextBox.BackColor = Color.Transparent;
-            TransactionIdTextBox.BorderColor = Color.Transparent;
-            TransactionIdTextBox.BorderRadius = 8;
-            TransactionIdTextBox.BorderThickness = 0;
-            TransactionIdTextBox.CustomizableEdges = customizableEdges62;
-            TransactionIdTextBox.DefaultText = "";
-            TransactionIdTextBox.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            TransactionIdTextBox.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            TransactionIdTextBox.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            TransactionIdTextBox.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            TransactionIdTextBox.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            TransactionIdTextBox.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            TransactionIdTextBox.ForeColor = Color.FromArgb(47, 89, 114);
-            TransactionIdTextBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            TransactionIdTextBox.Location = new Point(220, 5);
-            TransactionIdTextBox.Name = "TransactionIdTextBox";
-            TransactionIdTextBox.PasswordChar = '\0';
-            TransactionIdTextBox.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            TransactionIdTextBox.PlaceholderText = "ID";
-            TransactionIdTextBox.SelectedText = "";
-            TransactionIdTextBox.ShadowDecoration.CustomizableEdges = customizableEdges63;
-            TransactionIdTextBox.Size = new Size(51, 33);
-            TransactionIdTextBox.TabIndex = 213;
-            // 
-            // SearchPanel2
-            // 
-            SearchPanel2.BorderColor = Color.Transparent;
-            SearchPanel2.BorderThickness = 2;
-            SearchPanel2.Controls.Add(guna2Button1);
-            SearchPanel2.Controls.Add(guna2HtmlLabel2);
-            SearchPanel2.Controls.Add(guna2TextBox1);
-            SearchPanel2.Controls.Add(guna2Button2);
-            SearchPanel2.Controls.Add(guna2TextBox2);
-            SearchPanel2.CustomizableEdges = customizableEdges54;
-            SearchPanel2.FillColor = Color.FromArgb(13, 41, 80);
-            SearchPanel2.FillColor2 = Color.FromArgb(13, 41, 80);
-            SearchPanel2.FillColor3 = Color.FromArgb(13, 41, 80);
-            SearchPanel2.FillColor4 = Color.FromArgb(110, 177, 247);
-            SearchPanel2.Location = new Point(441, 45);
-            SearchPanel2.Name = "SearchPanel2";
-            SearchPanel2.ShadowDecoration.CustomizableEdges = customizableEdges55;
-            SearchPanel2.Size = new Size(441, 44);
-            SearchPanel2.TabIndex = 223;
-            SearchPanel2.Visible = false;
-            // 
-            // guna2Button1
-            // 
-            guna2Button1.BackColor = Color.Transparent;
-            guna2Button1.BorderColor = Color.FromArgb(93, 202, 209);
-            guna2Button1.BorderRadius = 15;
-            guna2Button1.CustomBorderColor = Color.Cyan;
-            guna2Button1.CustomizableEdges = customizableEdges46;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.White;
-            guna2Button1.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button1.ForeColor = Color.Black;
-            guna2Button1.ImageAlign = HorizontalAlignment.Left;
-            guna2Button1.ImageOffset = new Point(2, 0);
-            guna2Button1.ImageSize = new Size(40, 40);
-            guna2Button1.Location = new Point(357, 5);
-            guna2Button1.Margin = new Padding(3, 2, 3, 2);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges47;
-            guna2Button1.Size = new Size(74, 33);
-            guna2Button1.TabIndex = 219;
-            guna2Button1.Text = "Reset";
-            guna2Button1.TextFormatNoPrefix = true;
-            guna2Button1.Click += guna2Button1_Click;
-            // 
-            // guna2HtmlLabel2
-            // 
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-            guna2HtmlLabel2.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel2.ForeColor = SystemColors.Control;
-            guna2HtmlLabel2.Location = new Point(189, 12);
-            guna2HtmlLabel2.Margin = new Padding(3, 2, 3, 2);
-            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(20, 18);
-            guna2HtmlLabel2.TabIndex = 220;
-            guna2HtmlLabel2.Text = "OR";
-            // 
-            // guna2TextBox1
-            // 
-            guna2TextBox1.BackColor = Color.Transparent;
-            guna2TextBox1.BorderColor = Color.FromArgb(93, 202, 209);
-            guna2TextBox1.BorderRadius = 8;
-            guna2TextBox1.BorderThickness = 0;
-            guna2TextBox1.CustomizableEdges = customizableEdges48;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FillColor = SystemColors.Window;
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TextBox1.ForeColor = Color.FromArgb(47, 89, 114);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(10, 5);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            guna2TextBox1.PlaceholderText = "Name";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges49;
-            guna2TextBox1.Size = new Size(170, 33);
-            guna2TextBox1.TabIndex = 218;
-            // 
-            // guna2Button2
-            // 
-            guna2Button2.BackColor = Color.Transparent;
-            guna2Button2.BorderColor = Color.FromArgb(93, 202, 209);
-            guna2Button2.BorderRadius = 15;
-            guna2Button2.CustomBorderColor = Color.Cyan;
-            guna2Button2.CustomizableEdges = customizableEdges50;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.White;
-            guna2Button2.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button2.ForeColor = Color.Black;
-            guna2Button2.ImageAlign = HorizontalAlignment.Left;
-            guna2Button2.ImageOffset = new Point(2, 0);
-            guna2Button2.ImageSize = new Size(40, 40);
-            guna2Button2.Location = new Point(277, 5);
-            guna2Button2.Margin = new Padding(3, 2, 3, 2);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges51;
-            guna2Button2.Size = new Size(74, 33);
-            guna2Button2.TabIndex = 218;
-            guna2Button2.Text = "Search";
-            guna2Button2.TextFormatNoPrefix = true;
-            guna2Button2.Click += guna2Button2_Click;
-            // 
-            // guna2TextBox2
-            // 
-            guna2TextBox2.BackColor = Color.Transparent;
-            guna2TextBox2.BorderColor = Color.Transparent;
-            guna2TextBox2.BorderRadius = 8;
-            guna2TextBox2.BorderThickness = 0;
-            guna2TextBox2.CustomizableEdges = customizableEdges52;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2TextBox2.ForeColor = Color.FromArgb(47, 89, 114);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(220, 5);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            guna2TextBox2.PlaceholderText = "ID";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges53;
-            guna2TextBox2.Size = new Size(51, 33);
-            guna2TextBox2.TabIndex = 213;
-            // 
-            // SearchPanel4
-            // 
-            SearchPanel4.BorderColor = Color.Transparent;
-            SearchPanel4.BorderThickness = 2;
-            SearchPanel4.Controls.Add(ResetAppointmentButton);
-            SearchPanel4.Controls.Add(guna2HtmlLabel10);
-            SearchPanel4.Controls.Add(SearchAppointmentName);
-            SearchPanel4.Controls.Add(AppointmentSearchButton);
-            SearchPanel4.Controls.Add(SearchAppointmentID);
-            SearchPanel4.CustomizableEdges = customizableEdges44;
-            SearchPanel4.FillColor = Color.FromArgb(13, 41, 80);
-            SearchPanel4.FillColor2 = Color.FromArgb(13, 41, 80);
-            SearchPanel4.FillColor3 = Color.FromArgb(13, 41, 80);
-            SearchPanel4.FillColor4 = Color.FromArgb(110, 177, 247);
-            SearchPanel4.Location = new Point(440, 46);
-            SearchPanel4.Name = "SearchPanel4";
-            SearchPanel4.ShadowDecoration.CustomizableEdges = customizableEdges45;
-            SearchPanel4.Size = new Size(441, 44);
-            SearchPanel4.TabIndex = 225;
-            SearchPanel4.Visible = false;
-            // 
-            // ResetAppointmentButton
-            // 
-            ResetAppointmentButton.BackColor = Color.Transparent;
-            ResetAppointmentButton.BorderColor = Color.FromArgb(93, 202, 209);
-            ResetAppointmentButton.BorderRadius = 15;
-            ResetAppointmentButton.CustomBorderColor = Color.Cyan;
-            ResetAppointmentButton.CustomizableEdges = customizableEdges36;
-            ResetAppointmentButton.DisabledState.BorderColor = Color.DarkGray;
-            ResetAppointmentButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            ResetAppointmentButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            ResetAppointmentButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            ResetAppointmentButton.FillColor = Color.White;
-            ResetAppointmentButton.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            ResetAppointmentButton.ForeColor = Color.Black;
-            ResetAppointmentButton.ImageAlign = HorizontalAlignment.Left;
-            ResetAppointmentButton.ImageOffset = new Point(2, 0);
-            ResetAppointmentButton.ImageSize = new Size(40, 40);
-            ResetAppointmentButton.Location = new Point(357, 5);
-            ResetAppointmentButton.Margin = new Padding(3, 2, 3, 2);
-            ResetAppointmentButton.Name = "ResetAppointmentButton";
-            ResetAppointmentButton.ShadowDecoration.CustomizableEdges = customizableEdges37;
-            ResetAppointmentButton.Size = new Size(74, 33);
-            ResetAppointmentButton.TabIndex = 219;
-            ResetAppointmentButton.Text = "Reset";
-            ResetAppointmentButton.TextFormatNoPrefix = true;
-            ResetAppointmentButton.Click += ResetAppointmentButton_Click;
-            // 
-            // guna2HtmlLabel10
-            // 
-            guna2HtmlLabel10.BackColor = Color.Transparent;
-            guna2HtmlLabel10.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel10.ForeColor = SystemColors.Control;
-            guna2HtmlLabel10.Location = new Point(189, 12);
-            guna2HtmlLabel10.Margin = new Padding(3, 2, 3, 2);
-            guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            guna2HtmlLabel10.Size = new Size(20, 18);
-            guna2HtmlLabel10.TabIndex = 220;
-            guna2HtmlLabel10.Text = "OR";
-            // 
-            // SearchAppointmentName
-            // 
-            SearchAppointmentName.BackColor = Color.Transparent;
-            SearchAppointmentName.BorderColor = Color.FromArgb(93, 202, 209);
-            SearchAppointmentName.BorderRadius = 8;
-            SearchAppointmentName.BorderThickness = 0;
-            SearchAppointmentName.CustomizableEdges = customizableEdges38;
-            SearchAppointmentName.DefaultText = "";
-            SearchAppointmentName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            SearchAppointmentName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            SearchAppointmentName.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            SearchAppointmentName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            SearchAppointmentName.FillColor = SystemColors.Window;
-            SearchAppointmentName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchAppointmentName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            SearchAppointmentName.ForeColor = Color.FromArgb(47, 89, 114);
-            SearchAppointmentName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchAppointmentName.Location = new Point(10, 5);
-            SearchAppointmentName.Name = "SearchAppointmentName";
-            SearchAppointmentName.PasswordChar = '\0';
-            SearchAppointmentName.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            SearchAppointmentName.PlaceholderText = "Name";
-            SearchAppointmentName.SelectedText = "";
-            SearchAppointmentName.ShadowDecoration.CustomizableEdges = customizableEdges39;
-            SearchAppointmentName.Size = new Size(170, 33);
-            SearchAppointmentName.TabIndex = 218;
-            // 
-            // AppointmentSearchButton
-            // 
-            AppointmentSearchButton.BackColor = Color.Transparent;
-            AppointmentSearchButton.BorderColor = Color.FromArgb(93, 202, 209);
-            AppointmentSearchButton.BorderRadius = 15;
-            AppointmentSearchButton.CustomBorderColor = Color.Cyan;
-            AppointmentSearchButton.CustomizableEdges = customizableEdges40;
-            AppointmentSearchButton.DisabledState.BorderColor = Color.DarkGray;
-            AppointmentSearchButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            AppointmentSearchButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            AppointmentSearchButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            AppointmentSearchButton.FillColor = Color.White;
-            AppointmentSearchButton.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            AppointmentSearchButton.ForeColor = Color.Black;
-            AppointmentSearchButton.ImageAlign = HorizontalAlignment.Left;
-            AppointmentSearchButton.ImageOffset = new Point(2, 0);
-            AppointmentSearchButton.ImageSize = new Size(40, 40);
-            AppointmentSearchButton.Location = new Point(277, 5);
-            AppointmentSearchButton.Margin = new Padding(3, 2, 3, 2);
-            AppointmentSearchButton.Name = "AppointmentSearchButton";
-            AppointmentSearchButton.ShadowDecoration.CustomizableEdges = customizableEdges41;
-            AppointmentSearchButton.Size = new Size(74, 33);
-            AppointmentSearchButton.TabIndex = 218;
-            AppointmentSearchButton.Text = "Search";
-            AppointmentSearchButton.TextFormatNoPrefix = true;
-            AppointmentSearchButton.Click += AppointmentSearchButton_Click;
-            // 
-            // SearchAppointmentID
-            // 
-            SearchAppointmentID.BackColor = Color.Transparent;
-            SearchAppointmentID.BorderColor = Color.Transparent;
-            SearchAppointmentID.BorderRadius = 8;
-            SearchAppointmentID.BorderThickness = 0;
-            SearchAppointmentID.CustomizableEdges = customizableEdges42;
-            SearchAppointmentID.DefaultText = "";
-            SearchAppointmentID.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            SearchAppointmentID.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            SearchAppointmentID.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            SearchAppointmentID.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            SearchAppointmentID.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchAppointmentID.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            SearchAppointmentID.ForeColor = Color.FromArgb(47, 89, 114);
-            SearchAppointmentID.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchAppointmentID.Location = new Point(220, 5);
-            SearchAppointmentID.Name = "SearchAppointmentID";
-            SearchAppointmentID.PasswordChar = '\0';
-            SearchAppointmentID.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            SearchAppointmentID.PlaceholderText = "ID";
-            SearchAppointmentID.SelectedText = "";
-            SearchAppointmentID.ShadowDecoration.CustomizableEdges = customizableEdges43;
-            SearchAppointmentID.Size = new Size(51, 33);
-            SearchAppointmentID.TabIndex = 213;
-            // 
-            // SearchPanel3
-            // 
-            SearchPanel3.BorderColor = Color.Transparent;
-            SearchPanel3.BorderThickness = 2;
-            SearchPanel3.Controls.Add(ResetDoctorButton);
-            SearchPanel3.Controls.Add(guna2HtmlLabel7);
-            SearchPanel3.Controls.Add(SearchDoctorName);
-            SearchPanel3.Controls.Add(SearchDoctorButton);
-            SearchPanel3.Controls.Add(SearchDoctorID);
-            SearchPanel3.CustomizableEdges = customizableEdges74;
-            SearchPanel3.FillColor = Color.FromArgb(13, 41, 80);
-            SearchPanel3.FillColor2 = Color.FromArgb(13, 41, 80);
-            SearchPanel3.FillColor3 = Color.FromArgb(13, 41, 80);
-            SearchPanel3.FillColor4 = Color.FromArgb(110, 177, 247);
-            SearchPanel3.Location = new Point(440, 46);
-            SearchPanel3.Name = "SearchPanel3";
-            SearchPanel3.ShadowDecoration.CustomizableEdges = customizableEdges75;
-            SearchPanel3.Size = new Size(441, 44);
-            SearchPanel3.TabIndex = 224;
-            SearchPanel3.Visible = false;
-            // 
-            // ResetDoctorButton
-            // 
-            ResetDoctorButton.BackColor = Color.Transparent;
-            ResetDoctorButton.BorderColor = Color.FromArgb(93, 202, 209);
-            ResetDoctorButton.BorderRadius = 15;
-            ResetDoctorButton.CustomBorderColor = Color.Cyan;
-            ResetDoctorButton.CustomizableEdges = customizableEdges66;
-            ResetDoctorButton.DisabledState.BorderColor = Color.DarkGray;
-            ResetDoctorButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            ResetDoctorButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            ResetDoctorButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            ResetDoctorButton.FillColor = Color.White;
-            ResetDoctorButton.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            ResetDoctorButton.ForeColor = Color.Black;
-            ResetDoctorButton.ImageAlign = HorizontalAlignment.Left;
-            ResetDoctorButton.ImageOffset = new Point(2, 0);
-            ResetDoctorButton.ImageSize = new Size(40, 40);
-            ResetDoctorButton.Location = new Point(357, 5);
-            ResetDoctorButton.Margin = new Padding(3, 2, 3, 2);
-            ResetDoctorButton.Name = "ResetDoctorButton";
-            ResetDoctorButton.ShadowDecoration.CustomizableEdges = customizableEdges67;
-            ResetDoctorButton.Size = new Size(74, 33);
-            ResetDoctorButton.TabIndex = 219;
-            ResetDoctorButton.Text = "Reset";
-            ResetDoctorButton.TextFormatNoPrefix = true;
-            ResetDoctorButton.Click += ResetDoctorButton_Click;
-            // 
-            // guna2HtmlLabel7
-            // 
-            guna2HtmlLabel7.BackColor = Color.Transparent;
-            guna2HtmlLabel7.Font = new Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2HtmlLabel7.ForeColor = SystemColors.Control;
-            guna2HtmlLabel7.Location = new Point(189, 12);
-            guna2HtmlLabel7.Margin = new Padding(3, 2, 3, 2);
-            guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            guna2HtmlLabel7.Size = new Size(20, 18);
-            guna2HtmlLabel7.TabIndex = 220;
-            guna2HtmlLabel7.Text = "OR";
-            // 
-            // SearchDoctorName
-            // 
-            SearchDoctorName.BackColor = Color.Transparent;
-            SearchDoctorName.BorderColor = Color.FromArgb(93, 202, 209);
-            SearchDoctorName.BorderRadius = 8;
-            SearchDoctorName.BorderThickness = 0;
-            SearchDoctorName.CustomizableEdges = customizableEdges68;
-            SearchDoctorName.DefaultText = "";
-            SearchDoctorName.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            SearchDoctorName.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            SearchDoctorName.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            SearchDoctorName.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            SearchDoctorName.FillColor = SystemColors.Window;
-            SearchDoctorName.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchDoctorName.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            SearchDoctorName.ForeColor = Color.FromArgb(47, 89, 114);
-            SearchDoctorName.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchDoctorName.Location = new Point(10, 5);
-            SearchDoctorName.Name = "SearchDoctorName";
-            SearchDoctorName.PasswordChar = '\0';
-            SearchDoctorName.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            SearchDoctorName.PlaceholderText = "Name";
-            SearchDoctorName.SelectedText = "";
-            SearchDoctorName.ShadowDecoration.CustomizableEdges = customizableEdges69;
-            SearchDoctorName.Size = new Size(170, 33);
-            SearchDoctorName.TabIndex = 218;
-            // 
-            // SearchDoctorButton
-            // 
-            SearchDoctorButton.BackColor = Color.Transparent;
-            SearchDoctorButton.BorderColor = Color.FromArgb(93, 202, 209);
-            SearchDoctorButton.BorderRadius = 15;
-            SearchDoctorButton.CustomBorderColor = Color.Cyan;
-            SearchDoctorButton.CustomizableEdges = customizableEdges70;
-            SearchDoctorButton.DisabledState.BorderColor = Color.DarkGray;
-            SearchDoctorButton.DisabledState.CustomBorderColor = Color.DarkGray;
-            SearchDoctorButton.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            SearchDoctorButton.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            SearchDoctorButton.FillColor = Color.White;
-            SearchDoctorButton.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            SearchDoctorButton.ForeColor = Color.Black;
-            SearchDoctorButton.ImageAlign = HorizontalAlignment.Left;
-            SearchDoctorButton.ImageOffset = new Point(2, 0);
-            SearchDoctorButton.ImageSize = new Size(40, 40);
-            SearchDoctorButton.Location = new Point(277, 5);
-            SearchDoctorButton.Margin = new Padding(3, 2, 3, 2);
-            SearchDoctorButton.Name = "SearchDoctorButton";
-            SearchDoctorButton.ShadowDecoration.CustomizableEdges = customizableEdges71;
-            SearchDoctorButton.Size = new Size(74, 33);
-            SearchDoctorButton.TabIndex = 218;
-            SearchDoctorButton.Text = "Search";
-            SearchDoctorButton.TextFormatNoPrefix = true;
-            SearchDoctorButton.Click += SearchDoctorButton_Click;
-            // 
-            // SearchDoctorID
-            // 
-            SearchDoctorID.BackColor = Color.Transparent;
-            SearchDoctorID.BorderColor = Color.Transparent;
-            SearchDoctorID.BorderRadius = 8;
-            SearchDoctorID.BorderThickness = 0;
-            SearchDoctorID.CustomizableEdges = customizableEdges72;
-            SearchDoctorID.DefaultText = "";
-            SearchDoctorID.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            SearchDoctorID.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            SearchDoctorID.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            SearchDoctorID.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            SearchDoctorID.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchDoctorID.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            SearchDoctorID.ForeColor = Color.FromArgb(47, 89, 114);
-            SearchDoctorID.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            SearchDoctorID.Location = new Point(220, 5);
-            SearchDoctorID.Name = "SearchDoctorID";
-            SearchDoctorID.PasswordChar = '\0';
-            SearchDoctorID.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
-            SearchDoctorID.PlaceholderText = "ID";
-            SearchDoctorID.SelectedText = "";
-            SearchDoctorID.ShadowDecoration.CustomizableEdges = customizableEdges73;
-            SearchDoctorID.Size = new Size(51, 33);
-            SearchDoctorID.TabIndex = 213;
-            // 
             // mySqlCommand1
             // 
             mySqlCommand1.CacheAge = 0;
@@ -1598,15 +1006,260 @@
             mySqlCommand1.EnableCaching = false;
             mySqlCommand1.Transaction = null;
             // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
+            // 
+            // SearchForPatient
+            // 
+            SearchForPatient.BackColor = Color.Transparent;
+            SearchForPatient.BorderColor = Color.FromArgb(93, 202, 209);
+            SearchForPatient.BorderRadius = 8;
+            SearchForPatient.BorderThickness = 0;
+            SearchForPatient.CustomizableEdges = customizableEdges36;
+            SearchForPatient.DefaultText = "";
+            SearchForPatient.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            SearchForPatient.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            SearchForPatient.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            SearchForPatient.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            SearchForPatient.FillColor = SystemColors.Window;
+            SearchForPatient.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForPatient.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            SearchForPatient.ForeColor = Color.FromArgb(47, 89, 114);
+            SearchForPatient.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForPatient.Location = new Point(73, 3);
+            SearchForPatient.Name = "SearchForPatient";
+            SearchForPatient.PasswordChar = '\0';
+            SearchForPatient.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
+            SearchForPatient.PlaceholderText = "Name/ID";
+            SearchForPatient.SelectedText = "";
+            SearchForPatient.ShadowDecoration.CustomizableEdges = customizableEdges37;
+            SearchForPatient.Size = new Size(170, 33);
+            SearchForPatient.TabIndex = 226;
+            SearchForPatient.TextChanged += SearchForPatient_TextChanged;
+            // 
+            // SearchForPatientPanel
+            // 
+            SearchForPatientPanel.BackColor = Color.Transparent;
+            SearchForPatientPanel.BorderRadius = 8;
+            SearchForPatientPanel.Controls.Add(SearchForPatient);
+            SearchForPatientPanel.Controls.Add(guna2HtmlLabel2);
+            SearchForPatientPanel.CustomizableEdges = customizableEdges38;
+            SearchForPatientPanel.FillColor = Color.FromArgb(13, 41, 80);
+            SearchForPatientPanel.FillColor2 = Color.FromArgb(13, 41, 80);
+            SearchForPatientPanel.FillColor3 = Color.FromArgb(13, 41, 80);
+            SearchForPatientPanel.FillColor4 = Color.FromArgb(110, 177, 247);
+            SearchForPatientPanel.Location = new Point(631, 42);
+            SearchForPatientPanel.Name = "SearchForPatientPanel";
+            SearchForPatientPanel.ShadowDecoration.CustomizableEdges = customizableEdges39;
+            SearchForPatientPanel.Size = new Size(249, 40);
+            SearchForPatientPanel.TabIndex = 227;
+            SearchForPatientPanel.Visible = false;
+            // 
+            // guna2HtmlLabel2
+            // 
+            guna2HtmlLabel2.BackColor = Color.Transparent;
+            guna2HtmlLabel2.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel2.ForeColor = SystemColors.Control;
+            guna2HtmlLabel2.Location = new Point(13, 10);
+            guna2HtmlLabel2.Margin = new Padding(3, 2, 3, 2);
+            guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            guna2HtmlLabel2.Size = new Size(48, 18);
+            guna2HtmlLabel2.TabIndex = 142;
+            guna2HtmlLabel2.Text = "Search";
+            // 
+            // SearchForStaffPanel
+            // 
+            SearchForStaffPanel.BackColor = Color.Transparent;
+            SearchForStaffPanel.BorderRadius = 8;
+            SearchForStaffPanel.Controls.Add(SearchForStaff);
+            SearchForStaffPanel.Controls.Add(guna2HtmlLabel7);
+            SearchForStaffPanel.CustomizableEdges = customizableEdges50;
+            SearchForStaffPanel.FillColor = Color.FromArgb(13, 41, 80);
+            SearchForStaffPanel.FillColor2 = Color.FromArgb(13, 41, 80);
+            SearchForStaffPanel.FillColor3 = Color.FromArgb(13, 41, 80);
+            SearchForStaffPanel.FillColor4 = Color.FromArgb(110, 177, 247);
+            SearchForStaffPanel.Location = new Point(631, 42);
+            SearchForStaffPanel.Name = "SearchForStaffPanel";
+            SearchForStaffPanel.ShadowDecoration.CustomizableEdges = customizableEdges51;
+            SearchForStaffPanel.Size = new Size(249, 40);
+            SearchForStaffPanel.TabIndex = 228;
+            SearchForStaffPanel.Visible = false;
+            // 
+            // SearchForStaff
+            // 
+            SearchForStaff.BackColor = Color.Transparent;
+            SearchForStaff.BorderColor = Color.FromArgb(93, 202, 209);
+            SearchForStaff.BorderRadius = 8;
+            SearchForStaff.BorderThickness = 0;
+            SearchForStaff.CustomizableEdges = customizableEdges48;
+            SearchForStaff.DefaultText = "";
+            SearchForStaff.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            SearchForStaff.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            SearchForStaff.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            SearchForStaff.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            SearchForStaff.FillColor = SystemColors.Window;
+            SearchForStaff.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForStaff.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            SearchForStaff.ForeColor = Color.FromArgb(47, 89, 114);
+            SearchForStaff.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForStaff.Location = new Point(73, 3);
+            SearchForStaff.Name = "SearchForStaff";
+            SearchForStaff.PasswordChar = '\0';
+            SearchForStaff.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
+            SearchForStaff.PlaceholderText = "Name/ID";
+            SearchForStaff.SelectedText = "";
+            SearchForStaff.ShadowDecoration.CustomizableEdges = customizableEdges49;
+            SearchForStaff.Size = new Size(170, 33);
+            SearchForStaff.TabIndex = 226;
+            SearchForStaff.TextChanged += SearchForStaff_TextChanged;
+            // 
+            // guna2HtmlLabel7
+            // 
+            guna2HtmlLabel7.BackColor = Color.Transparent;
+            guna2HtmlLabel7.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel7.ForeColor = SystemColors.Control;
+            guna2HtmlLabel7.Location = new Point(13, 10);
+            guna2HtmlLabel7.Margin = new Padding(3, 2, 3, 2);
+            guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            guna2HtmlLabel7.Size = new Size(48, 18);
+            guna2HtmlLabel7.TabIndex = 142;
+            guna2HtmlLabel7.Text = "Search";
+            // 
+            // SearchForDoctorPanel
+            // 
+            SearchForDoctorPanel.BackColor = Color.Transparent;
+            SearchForDoctorPanel.BorderRadius = 8;
+            SearchForDoctorPanel.Controls.Add(SearchForDoctor);
+            SearchForDoctorPanel.Controls.Add(guna2HtmlLabel8);
+            SearchForDoctorPanel.CustomizableEdges = customizableEdges46;
+            SearchForDoctorPanel.FillColor = Color.FromArgb(13, 41, 80);
+            SearchForDoctorPanel.FillColor2 = Color.FromArgb(13, 41, 80);
+            SearchForDoctorPanel.FillColor3 = Color.FromArgb(13, 41, 80);
+            SearchForDoctorPanel.FillColor4 = Color.FromArgb(110, 177, 247);
+            SearchForDoctorPanel.Location = new Point(631, 42);
+            SearchForDoctorPanel.Name = "SearchForDoctorPanel";
+            SearchForDoctorPanel.ShadowDecoration.CustomizableEdges = customizableEdges47;
+            SearchForDoctorPanel.Size = new Size(249, 40);
+            SearchForDoctorPanel.TabIndex = 229;
+            SearchForDoctorPanel.Visible = false;
+            // 
+            // SearchForDoctor
+            // 
+            SearchForDoctor.BackColor = Color.Transparent;
+            SearchForDoctor.BorderColor = Color.FromArgb(93, 202, 209);
+            SearchForDoctor.BorderRadius = 8;
+            SearchForDoctor.BorderThickness = 0;
+            SearchForDoctor.CustomizableEdges = customizableEdges44;
+            SearchForDoctor.DefaultText = "";
+            SearchForDoctor.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            SearchForDoctor.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            SearchForDoctor.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            SearchForDoctor.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            SearchForDoctor.FillColor = SystemColors.Window;
+            SearchForDoctor.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForDoctor.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            SearchForDoctor.ForeColor = Color.FromArgb(47, 89, 114);
+            SearchForDoctor.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForDoctor.Location = new Point(73, 3);
+            SearchForDoctor.Name = "SearchForDoctor";
+            SearchForDoctor.PasswordChar = '\0';
+            SearchForDoctor.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
+            SearchForDoctor.PlaceholderText = "Name/ID";
+            SearchForDoctor.SelectedText = "";
+            SearchForDoctor.ShadowDecoration.CustomizableEdges = customizableEdges45;
+            SearchForDoctor.Size = new Size(170, 33);
+            SearchForDoctor.TabIndex = 226;
+            SearchForDoctor.TextChanged += SearchForDoctor_TextChanged;
+            // 
+            // guna2HtmlLabel8
+            // 
+            guna2HtmlLabel8.BackColor = Color.Transparent;
+            guna2HtmlLabel8.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel8.ForeColor = SystemColors.Control;
+            guna2HtmlLabel8.Location = new Point(13, 10);
+            guna2HtmlLabel8.Margin = new Padding(3, 2, 3, 2);
+            guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            guna2HtmlLabel8.Size = new Size(48, 18);
+            guna2HtmlLabel8.TabIndex = 142;
+            guna2HtmlLabel8.Text = "Search";
+            // 
+            // SearchForAppointmentPanel
+            // 
+            SearchForAppointmentPanel.BackColor = Color.Transparent;
+            SearchForAppointmentPanel.BorderRadius = 8;
+            SearchForAppointmentPanel.Controls.Add(SearchForAppointment);
+            SearchForAppointmentPanel.Controls.Add(guna2HtmlLabel10);
+            SearchForAppointmentPanel.CustomizableEdges = customizableEdges42;
+            SearchForAppointmentPanel.FillColor = Color.FromArgb(13, 41, 80);
+            SearchForAppointmentPanel.FillColor2 = Color.FromArgb(13, 41, 80);
+            SearchForAppointmentPanel.FillColor3 = Color.FromArgb(13, 41, 80);
+            SearchForAppointmentPanel.FillColor4 = Color.FromArgb(110, 177, 247);
+            SearchForAppointmentPanel.Location = new Point(631, 42);
+            SearchForAppointmentPanel.Name = "SearchForAppointmentPanel";
+            SearchForAppointmentPanel.ShadowDecoration.CustomizableEdges = customizableEdges43;
+            SearchForAppointmentPanel.Size = new Size(249, 40);
+            SearchForAppointmentPanel.TabIndex = 230;
+            SearchForAppointmentPanel.Visible = false;
+            // 
+            // SearchForAppointment
+            // 
+            SearchForAppointment.BackColor = Color.Transparent;
+            SearchForAppointment.BorderColor = Color.FromArgb(93, 202, 209);
+            SearchForAppointment.BorderRadius = 8;
+            SearchForAppointment.BorderThickness = 0;
+            SearchForAppointment.CustomizableEdges = customizableEdges40;
+            SearchForAppointment.DefaultText = "";
+            SearchForAppointment.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            SearchForAppointment.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            SearchForAppointment.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            SearchForAppointment.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            SearchForAppointment.FillColor = SystemColors.Window;
+            SearchForAppointment.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForAppointment.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            SearchForAppointment.ForeColor = Color.FromArgb(47, 89, 114);
+            SearchForAppointment.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            SearchForAppointment.Location = new Point(73, 3);
+            SearchForAppointment.Name = "SearchForAppointment";
+            SearchForAppointment.PasswordChar = '\0';
+            SearchForAppointment.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
+            SearchForAppointment.PlaceholderText = "Name/ID";
+            SearchForAppointment.SelectedText = "";
+            SearchForAppointment.ShadowDecoration.CustomizableEdges = customizableEdges41;
+            SearchForAppointment.Size = new Size(170, 33);
+            SearchForAppointment.TabIndex = 226;
+            SearchForAppointment.TextChanged += SearchForAppointment_TextChanged;
+            // 
+            // guna2HtmlLabel10
+            // 
+            guna2HtmlLabel10.BackColor = Color.Transparent;
+            guna2HtmlLabel10.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            guna2HtmlLabel10.ForeColor = SystemColors.Control;
+            guna2HtmlLabel10.Location = new Point(13, 10);
+            guna2HtmlLabel10.Margin = new Padding(3, 2, 3, 2);
+            guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            guna2HtmlLabel10.Size = new Size(48, 18);
+            guna2HtmlLabel10.TabIndex = 142;
+            guna2HtmlLabel10.Text = "Search";
+            // 
+            // timer2
+            // 
+            timer2.Tick += timer2_Tick;
+            // 
+            // timer3
+            // 
+            timer3.Tick += timer3_Tick;
+            // 
+            // timer4
+            // 
+            timer4.Tick += timer4_Tick;
+            // 
             // AdminDashboard2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(894, 574);
             ControlBox = false;
-            Controls.Add(SearchPanel4);
-            Controls.Add(SearchPanel2);
-            Controls.Add(SearchPanel1);
             Controls.Add(MinimizeButton);
             Controls.Add(ExitButton);
             Controls.Add(ad_guna2HtmlLabel3);
@@ -1614,11 +1267,14 @@
             Controls.Add(ad_guna2HtmlLabel4);
             Controls.Add(guna2PictureBox1);
             Controls.Add(guna2PictureBox2);
-            Controls.Add(SearchPanel3);
+            Controls.Add(SearchForPatientPanel);
+            Controls.Add(SearchForAppointmentPanel);
+            Controls.Add(SearchForDoctorPanel);
+            Controls.Add(SearchForStaffPanel);
+            Controls.Add(ad_docpanel);
             Controls.Add(ad_staffpanel);
             Controls.Add(ad_AppointmentPanel);
             Controls.Add(ad_patientpanel);
-            Controls.Add(ad_docpanel);
             FormBorderStyle = FormBorderStyle.None;
             Name = "AdminDashboard2";
             StartPosition = FormStartPosition.CenterScreen;
@@ -1643,14 +1299,14 @@
             ad_AppointmentPanel.PerformLayout();
             guna2CustomGradientPanel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)AppointmentDataGridViewList2).EndInit();
-            SearchPanel1.ResumeLayout(false);
-            SearchPanel1.PerformLayout();
-            SearchPanel2.ResumeLayout(false);
-            SearchPanel2.PerformLayout();
-            SearchPanel4.ResumeLayout(false);
-            SearchPanel4.PerformLayout();
-            SearchPanel3.ResumeLayout(false);
-            SearchPanel3.PerformLayout();
+            SearchForPatientPanel.ResumeLayout(false);
+            SearchForPatientPanel.PerformLayout();
+            SearchForStaffPanel.ResumeLayout(false);
+            SearchForStaffPanel.PerformLayout();
+            SearchForDoctorPanel.ResumeLayout(false);
+            SearchForDoctorPanel.PerformLayout();
+            SearchForAppointmentPanel.ResumeLayout(false);
+            SearchForAppointmentPanel.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1694,30 +1350,22 @@
         private Guna.UI2.WinForms.Guna2DataGridView PatientDataGridViewList2;
         private Guna.UI2.WinForms.Guna2DataGridView DoctorDataGridViewList2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchPanel1;
-        private Guna.UI2.WinForms.Guna2Button ResetTransactionFilterButton;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
-        private Guna.UI2.WinForms.Guna2TextBox NameTextBox;
-        private Guna.UI2.WinForms.Guna2Button SearchTransactionButton;
-        private Guna.UI2.WinForms.Guna2TextBox TransactionIdTextBox;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchPanel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchPanel3;
-        private Guna.UI2.WinForms.Guna2Button ResetDoctorButton;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2TextBox SearchDoctorName;
-        private Guna.UI2.WinForms.Guna2Button SearchDoctorButton;
-        private Guna.UI2.WinForms.Guna2TextBox SearchDoctorID;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchPanel4;
-        private Guna.UI2.WinForms.Guna2Button ResetAppointmentButton;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
-        private Guna.UI2.WinForms.Guna2TextBox SearchAppointmentName;
-        private Guna.UI2.WinForms.Guna2Button AppointmentSearchButton;
-        private Guna.UI2.WinForms.Guna2TextBox SearchAppointmentID;
         private MySql.Data.MySqlClient.MySqlCommand mySqlCommand1;
+        private System.Windows.Forms.Timer timer1;
+        private Guna.UI2.WinForms.Guna2TextBox SearchForPatient;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchForPatientPanel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchForStaffPanel;
+        private Guna.UI2.WinForms.Guna2TextBox SearchForStaff;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchForAppointmentPanel;
+        private Guna.UI2.WinForms.Guna2TextBox SearchForAppointment;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel SearchForDoctorPanel;
+        private Guna.UI2.WinForms.Guna2TextBox SearchForDoctor;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
     }
 }
