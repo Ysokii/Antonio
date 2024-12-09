@@ -342,7 +342,7 @@
             ConfirmPasswordTextBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             ConfirmPasswordTextBox.Location = new Point(483, 328);
             ConfirmPasswordTextBox.Name = "ConfirmPasswordTextBox";
-            ConfirmPasswordTextBox.PasswordChar = '●';
+            ConfirmPasswordTextBox.PasswordChar = '\0';
             ConfirmPasswordTextBox.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
             ConfirmPasswordTextBox.PlaceholderText = "Confirm Password";
             ConfirmPasswordTextBox.SelectedText = "";
@@ -366,7 +366,7 @@
             PasswordTextBox.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
             PasswordTextBox.Location = new Point(266, 332);
             PasswordTextBox.Name = "PasswordTextBox";
-            PasswordTextBox.PasswordChar = '●';
+            PasswordTextBox.PasswordChar = '\0';
             PasswordTextBox.PlaceholderForeColor = Color.FromArgb(47, 89, 114);
             PasswordTextBox.PlaceholderText = "Password";
             PasswordTextBox.SelectedText = "";
